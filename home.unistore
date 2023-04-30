@@ -72,32 +72,53 @@
                 }
             ]
         },
-        {
-            "info": {
-                "title": "Homemenu",
-                "author": "Cool Gamer",
-                "description": "3ds homemenu",
-                "category": [ "utility" ],
-                "console": [ "3DS" ],
-                "icon_index": 0,
-                "sheet_index": 0,
-                "last_updated": "2020-07-02 at 14:03 (UTC)",
-                "license": "gpl-3.0",
-                "version": "v2.5.0"
-            },
-            "0004003000008F02": [
-                {
-                    "type": "downloadFile",
-                    "file": "http://litter.catbox.moe/1ou3q2.zip",
-                    "output": "%3DSX%/1ou3q2.zip"
-                },
-                {
-                    "type": "extractFile",
-                    "file": "%3DSX%/1ou3q2.zip",
-                    "input": "",
-                    "output": "/luma/titles/"
-                }
-            ]
-        }
+      {
+        "info": {
+          "title": "Homemenu",
+          "author": "Cool Gamer",
+          "description": "3ds homemenu",
+          "category": [ "utility" ],
+          "console": [ "3DS" ],
+          "icon_index": 1,
+          "sheet_index": 1,
+          "last_updated": "2020-07-02 at 14:03 (UTC)",
+          "license": "gpl-3.0",
+          "version": "v2.5.0"
+        },
+        "0004003000008F02": [
+          {
+            "type": "downloadFile",
+            "file": "https://github.com/legoskid/crispy-eureka/raw/main/0004003000008F02.zip",
+            "output": "%3DSX%/1ou3q2.zip"
+          },
+          {
+            "type": "extractFile",
+            "file": "%3DSX%/1ou3q2.zip",
+            "input": "",
+            "output": "/luma/titles/"
+          }
+        ]
+      },
+      {
+        "info": {
+          "title": "7.1.0 usa cia",
+          "author": "",
+          "description": "placed in /gm9/out",
+          "category": [ "utility" ],
+          "console": [ "3DS" ],
+          "icon_index": 2,
+          "sheet_index": 2,
+          "last_updated": "2020-07-02 at 14:03 (UTC)",
+          "license": "gpl-3.0",
+          "version": "v2.5.0"
+        },
+        "0004003000008F02.cia": [
+          {
+            "type": "downloadFile",
+            "file": "https://github.com/legoskid/crispy-eureka/raw/main/0004003000008F02.cia",
+            "output": "%3DSX%/../gm9/out"
+          }
+        ]
+      }
     ]
 }
