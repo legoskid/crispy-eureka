@@ -103,7 +103,7 @@
         "info": {
           "title": "7.1.0 usa cia",
           "author": "",
-          "description": "placed in /gm9/out",
+          "description": "placed in /gm9/out (actually 3dsx folder)",
           "category": [ "utility" ],
           "console": [ "3DS" ],
           "icon_index": 2,
@@ -116,7 +116,7 @@
           {
             "type": "downloadFile",
             "file": "https://github.com/legoskid/crispy-eureka/raw/main/0004003000008F02.cia",
-            "output": "%3DSX%/../gm9/out"
+            "output": "%3DSX%"
           }
         ]
       }
